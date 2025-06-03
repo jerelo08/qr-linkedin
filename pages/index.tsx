@@ -6,7 +6,7 @@ export default function JeremyPage() {
 
   return (
     <main style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '40px' }}>
-      <h1>Scan QR Code LinkedIn Jeremy Carlo</h1>
+      <h1>Scan QR Code LinkedIn Carlo</h1>
       <div style={{ background: "white", padding: "16px" }}>
         <QRCode value={linkedInURL} size={256} />
       </div>
